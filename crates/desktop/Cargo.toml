@@ -1,0 +1,14 @@
+[package]
+name = "hpos-desktop"
+version = "0.10.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+hpos-service-protocol = { path = "../service-protocol" }
+hpos-net = { path = "../net" }
+
+[features]
+default = ["display-font"]
+# The 34 px atlas (176 KB); the kernel's boot screen builds without it.
+display-font = []

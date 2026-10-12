@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/boot-protocol", "crates/memory", "crates/x86-paging", "crates/scheduler", "crates/ipc", "crates/service-protocol", "crates/desktop", "crates/fs", "crates/izzop", "crates/net", "services", "kernel"]
+resolver = "2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+opt-level = "s"
+lto = true
+codegen-units = 1

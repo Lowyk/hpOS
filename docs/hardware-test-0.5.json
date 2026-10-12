@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "version": "0.5",
+  "image_sha256": "4d1428dcd113c1a4a8c8ddaf0ceef5c21f5aa85b89ec87e9969bbd86cd78e5f7",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User reports successful operation in project conversation",
+  "observed": {
+    "successful_operation_reported": true
+  },
+  "not_confirmed": [
+    "individual controls and counters in version 0.5",
+    "duration of stability test",
+    "exact boot medium"
+  ]
+}

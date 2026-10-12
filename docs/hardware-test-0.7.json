@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "version": "0.7",
+  "image_sha256": "6278b6d8c24dde6deb2f704c98f7034f6e4eb984ca982243d8b8b32231b14917",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report in project conversation: \"0.7-8 я уже тестил все работало\"",
+  "observed": {
+    "successful_operation_reported": true
+  },
+  "not_confirmed": [
+    "individual checks from storage-0.7.md / desktop-0.8.md",
+    "whether the tested file is byte-identical to this copy",
+    "persistence across reboot (depends on boot medium)"
+  ]
+}

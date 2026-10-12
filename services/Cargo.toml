@@ -1,0 +1,36 @@
+[package]
+name = "hpos-services"
+version = "0.10.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+hpos-service-protocol = { path = "../crates/service-protocol" }
+hpos-desktop = { path = "../crates/desktop" }
+hpos-fs = { path = "../crates/fs" }
+hpos-izzop = { path = "../crates/izzop" }
+hpos-net = { path = "../crates/net" }
+
+[[bin]]
+name = "hpos-input"
+path = "src/input.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "hpos-display"
+path = "src/display.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "hpos-fs"
+path = "src/fs.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "hpos-net"
+path = "src/net.rs"
+test = false
+bench = false

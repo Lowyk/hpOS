@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "version": "0.6",
+  "image_sha256": "2f21cfb93cb040d18bf23473c0adadc0d75e36afb08df9a2dbab76024e4ccaaa",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report in project conversation",
+  "observed": {
+    "successful_operation_reported": true
+  },
+  "not_confirmed": [
+    "individual controls (mouse, windows, settings, resolution) in version 0.6",
+    "duration of stability test",
+    "exact boot medium"
+  ]
+}

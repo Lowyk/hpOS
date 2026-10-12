@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "version": "0.9 (stack fix)",
+  "image_sha256": "ad168350bc3be5673425044f6bf933d8a1f6771edb12e87d52cbcefe5843b6dc",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report: Izzop works and is funny",
+  "observed": {
+    "desktop_starts": true,
+    "terminal_and_izzop": true
+  },
+  "not_confirmed": [
+    "editor save",
+    "resolution switching",
+    "languages",
+    "animation smoothness"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/google/fonts",
+  "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+  "path": "ofl/notosans",
+  "source_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+  "atlas_sha256": "b7785c71fda9becd7c7da459416e8ac57b58380cde50984e3fb656f4ebcdd4d2",
+  "derived_name": "hpOS Interface bitmap atlas",
+  "rasterizer": "CoreText via Apple Clang; tools/font-atlas.c",
+  "layout": {
+    "width": 16,
+    "height": 22,
+    "alpha_bits": 4,
+    "glyphs": 191,
+    "pixel_size": 16
+  },
+  "atlases": {
+    "interface.bin": {
+      "pixel_size": 16,
+      "cell": [
+        16,
+        22
+      ],
+      "baseline": 5,
+      "weight": "default",
+      "sha256": "b7785c71fda9becd7c7da459416e8ac57b58380cde50984e3fb656f4ebcdd4d2"
+    },
+    "title.bin": {
+      "pixel_size": 20,
+      "cell": [
+        22,
+        28
+      ],
+      "baseline": 7,
+      "weight": 600,
+      "sha256": "3ed2765ab771e1866405ff21cfc73f5815c63cda0c9721c3411b2293f8c27c2f"
+    },
+    "display.bin": {
+      "pixel_size": 34,
+      "cell": [
+        40,
+        46
+      ],
+      "baseline": 10,
+      "weight": 700,
+      "sha256": "ea0b3d3ba3d9268e619be9f86d7f469e215b1f6c636d08b2d6e88b665ddf8d6b"
+    }
+  },
+  "regenerate": "build/font-atlas <ttf> <out> [pixel-size cell-width cell-height baseline weight]"
+}

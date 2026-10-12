@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "version": "0.4",
+  "image_sha256": "0621809236180098213ac09be07256a373edc90ead9965097e5bb7fc8d30a862",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report and photograph in project conversation",
+  "observed": {
+    "memory_status": "MEMORY OK",
+    "ipc_status": "IPC OK",
+    "isolation_status": "ISOLATION OK",
+    "free_ram_mib": 1019,
+    "ping": 1509,
+    "pong": 1509,
+    "messages": 3018,
+    "ticks": 9310,
+    "switches": 23839,
+    "checks": 1,
+    "theme": "dark",
+    "nx": "NOT AVAILABLE"
+  },
+  "not_confirmed": [
+    "free RAM stability",
+    "3–5 minute stability test",
+    "reason NX is not exposed",
+    "exact boot medium"
+  ],
+  "followup_report": {
+    "evidence": "User reports having tried the controls and that everything works",
+    "repeated_memory_check": true,
+    "theme_switching": true
+  }
+}

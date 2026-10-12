@@ -1,0 +1,13 @@
+[package]
+name = "hpos-izzop"
+version = "0.10.0"
+edition = "2024"
+publish = false
+
+[features]
+# Host-side model builder used by the trainer example.
+std = []
+
+[[example]]
+name = "train"
+required-features = ["std"]

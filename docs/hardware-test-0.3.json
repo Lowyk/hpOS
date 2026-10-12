@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "version": "0.3",
+  "image_sha256": "dd4a81bb350fd8e225469090c58538647a194eac71cafc1f4a2342a73ade06e6",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report and photograph in project conversation",
+  "observed": {
+    "memory_status": "MEMORY OK",
+    "context_status": "CONTEXT OK",
+    "free_ram_mib": 1019,
+    "task_a": 108638876,
+    "task_b": 163965971,
+    "ticks": 1220,
+    "switches": 1896,
+    "checks": 1,
+    "threads": 4,
+    "theme": "dark",
+    "nx": "NOT AVAILABLE"
+  },
+  "not_confirmed": [
+    "repeated M in version 0.3",
+    "theme switching in version 0.3",
+    "free RAM stability",
+    "reason NX is not exposed",
+    "exact boot medium"
+  ]
+}

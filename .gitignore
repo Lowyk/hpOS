@@ -1,0 +1,9 @@
+/target/
+/build/
+/private/
+/переписка с тихоном/
+__pycache__/
+*.pyc
+.DS_Store
+/переписка*/
+/ChatExport*/

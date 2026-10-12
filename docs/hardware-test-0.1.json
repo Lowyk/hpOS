@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-12",
+  "image_sha256": "96fa16a7710f27ef5d053e36604a3d85f93375be7eb06dab2085ffc864c5ed5e",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report and photograph in project conversation",
+  "observed": [
+    "graphical boot screen",
+    "BOOT OK",
+    "LIGHT THEME"
+  ],
+  "keyboard_theme_switch": "inferred from light theme; image defaults to dark",
+  "boot_medium": "not separately confirmed"
+}

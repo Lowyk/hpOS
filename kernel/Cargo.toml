@@ -1,0 +1,20 @@
+[package]
+name = "hpos-kernel"
+version = "0.10.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+hpos-boot-protocol = { path = "../crates/boot-protocol" }
+hpos-memory = { path = "../crates/memory" }
+hpos-x86-paging = { path = "../crates/x86-paging" }
+hpos-scheduler = { path = "../crates/scheduler" }
+hpos-ipc = { path = "../crates/ipc" }
+hpos-service-protocol = { path = "../crates/service-protocol" }
+hpos-desktop = { path = "../crates/desktop", default-features = false }
+
+[[bin]]
+name = "hpos-kernel"
+path = "src/main.rs"
+test = false
+bench = false

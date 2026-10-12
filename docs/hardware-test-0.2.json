@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-12",
+  "version": "0.2",
+  "image_sha256": "cd45246c090a48d9e94a9f95e2ddb97bfced1d48cc5d615b928d3069799e824d",
+  "device_reported": "Toshiba Satellite P100-222 / Core 2 Duo T5600",
+  "evidence": "User report in project conversation",
+  "reported": {
+    "memory_status": "MEMORY OK",
+    "checks": 25,
+    "themes": [
+      "light",
+      "dark"
+    ]
+  },
+  "not_reported": [
+    "free memory amount or stability",
+    "NX status",
+    "exact boot medium"
+  ]
+}
